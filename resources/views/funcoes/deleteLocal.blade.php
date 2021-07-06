@@ -38,25 +38,28 @@
                 </aside>
             </header>
             <main class="mb-3 mt-5">
-                <h1 class="text-center text-light mb-5">Verifique os dados do artista a ser excluído:</h1>
+                <h1 class="text-center text-light mb-5">Verifique os dados do local a ser excluído:</h1>
                 <div class="container text-center mb-5">
-                    <form action="{{ route('excluir_dados_artista', ['id' => $user->id]) }}" method="POST">
+                    <form action="{{ route('excluir_dados_local', ['id' => $user->id]) }}" method="POST">
                         @csrf
-                        <label for="" class="mt-3 mb-3">Artista: </label> <br />
-                        <input type="text" name=artista value="{{ $user->artista }}"> <br />
+                        <label for="" class="mt-3 mb-3">Proprietário: </label> <br />
+                        <input type="text" name=proprietario value="{{ $user->proprietario }}"> <br />
 
-                        <label for="" class="mt-3 mb-3">Gênero: </label> <br />
-                        <input type="text" name=genero value="{{ $user->genero }}"> <br />
+                        <label for="" class="mt-3 mb-3">Tipo: </label> <br />
+                        <input type="text" name=tipo value="{{ $user->tipo }}"> <br />
+
+                        <label for="" class="mt-3 mb-3">Nome do local: </label> <br />
+                        <input type="text" name=nomeLocal value="{{ $user->nomeLocal }}"> <br />
 
                         <label for="" class="mt-3 mb-3">Email: </label> <br />
-                        <input type="text" name=emailArtista value="{{ $user->emailArtista }}"> <br />
+                        <input type="text" name=emailProprietario value="{{ $user->emailProprietario }}"> <br />
 
                         <label for="" class="mt-3 mb-3">Cidade: </label> <br />
-                        <input type="text" name=cidadeArtista value="{{ $user->cidadeArtista }}"> <br />
+                        <input type="text" name=cidadeLocal value="{{ $user->cidadeLocal }}"> <br />
 
                         <label for="" class="mt-3 mb-3">Telefone: </label> <br />
-                        <input type="text" name=telefoneArtista value="{{ $user->telefoneArtista }}"> <br />
-                        <button class="btn-artista mt-4">Excluir </button>
+                        <input type="text" name=telefoneLocal value="{{ $user->telefoneLocal }}"> <br />
+                        <button class="btn-estabelecimento mt-4">Excluir</button>
                     </form>
                 </div>
                 <footer class="text-center border-top mb-0">

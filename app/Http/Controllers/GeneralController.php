@@ -97,4 +97,28 @@ class GeneralController extends Controller
 
         return view('cadastro');
     }
+
+    // Deletar dados Artista
+    public function deleteArtista($id) {
+        $user = Artista::findOrFail($id);
+        return view('funcoes.deleteArtista', ['user' => $user]);
+    }
+
+    public function destroyArtista($id) {
+        $user = Artista::findOrFail($id);
+        $user->delete();
+        return view('cadastro');
+    }
+
+    // Deletar dados Local
+    public function deleteLocal($id) {
+        $user = Estabelecimento::findOrFail($id);
+        return view('funcoes.deleteLocal', ['user' => $user]);
+    }
+
+    public function destroyLocal($id) {
+        $user = Estabelecimento::findOrFail($id);
+        $user->delete();
+        return view('cadastro');
+    }
 }

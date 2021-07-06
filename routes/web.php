@@ -29,3 +29,11 @@ Route::post('/editar/artista/{id}', 'GeneralController@updateArtista')->name('al
 // Update Local
 Route::get('/editar/local/{id}', 'GeneralController@verLocal');
 Route::post('/editar/local/{id}', 'GeneralController@updateLocal')->name('alterar_dados_local');
+
+// Delete Artista
+Route::get('/excluir/artista/{id}', 'GeneralController@deleteArtista');
+Route::post('/excluir/artista/{id}', 'GeneralController@destroyArtista')->name('excluir_dados_artista');
+
+// Delete Local
+Route::get('/excluir/local/{id}', 'GeneralController@deleteLocal');
+Route::post('/excluir/local/{id}', 'GeneralController@destroyLocal')->name('excluir_dados_local');
