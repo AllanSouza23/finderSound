@@ -38,7 +38,7 @@
                 </aside>
             </header>
             <main class="mb-3 mt-5">
-                <h1 class="text-center text-light mb-5">Área de Edição: Artistas</h1>
+                <h1 class="text-center text-light mb-5">Área de Edição: Estabelecimentos</h1>
                 <div class="container text-center mb-5">
                     <form action="{{ route('alterar_dados_local', ['id' => $user->id]) }}" method="POST">
                         @csrf
