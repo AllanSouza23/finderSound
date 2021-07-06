@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="../../css/main.css" media="All">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Bem-vindo a FinderSound</title>
+
+    <link rel="canonical" href="localhost:8000/">
+    <meta name="author" content="Allan Souza">
+    <meta name="creator" content="Allan Souza">
+    <meta name="robots" content="nofollow">
+    <meta name="keywords" content="bem-vindo, artista, estabelecimento">
+    <meta name="description" content="Seja bem-vindo(a) ao Finder Sound, a plataforma que te conecta com o sucesso!">
+
+    <meta property="og:site_name" content="FinderSound">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="pt-BR">
+    <meta property="og:url" content="localhost:8000/">
+    <meta property="og:image" content="../../img/logo.png">
+    <meta property="og:image:url" content="../../img/logo.png">
+    <meta property="og:title" content="Seja bem-vindo(a) ao Finder Sound">
+    <meta property="og:description" content="Seja bem-vindo(a) ao Finder Sound, a plataforma que te conecta com o sucesso!">
+
+    <meta name="twitter:url" content="localhost:8000/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="../../img/logo.png">
+    <meta name="twitter:title" content="Seja bem-vindo(a) ao Finder Sound">
+    <meta name="twitter:description" content="Seja bem-vindo(a) ao Finder Sound, a plataforma que te conecta com o sucesso!">
+
+    <meta itemprop="name" content="Seja bem-vindo(a) ao Finder Sound">
+
+    <meta name="dcterms.type" content="text">
+    <meta name="dcterms.format" content="text/php">
+    <meta name="dcterms.identifier" content="localhost:8000/">
+    <meta name="dcterms.title" content="Seja bem-vindo(a) ao Finder Sound">
+    <meta name="dcterms.description" content="Seja bem-vindo(a) ao Finder Sound, a plataforma que te conecta com o sucesso!">
 </head>
 <body>
     <div class="bg-dark">

@@ -7,6 +7,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/main.css" media="All">
     <title>Objetivos</title>
+
+    <link rel="canonical" href="localhost:8000/objetivos">
+    <meta name="author" content="Allan Souza">
+    <meta name="creator" content="Allan Souza">
+    <meta name="robots" content="nofollow">
+    <meta name="keywords" content="objetivos, artista, estabelecimento">
+    <meta name="description" content="Tem dúvidas sobre como funcionamos? Venha e confira nossos objetivos e o que podemos lhe oferecer!">
+
+    <meta property="og:site_name" content="FinderSound">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="pt-BR">
+    <meta property="og:url" content="localhost:8000/objetivos">
+    <meta property="og:image" content="../../img/logo.png">
+    <meta property="og:image:url" content="../../img/logo.png">
+    <meta property="og:title" content="Seja bem-vindo(a) ao Finder Sound">
+    <meta property="og:description" content="Tem dúvidas sobre como funcionamos? Venha e confira nossos objetivos e o que podemos lhe oferecer!">
+
+    <meta name="twitter:url" content="localhost:8000/objetivos">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="../../img/logo.png">
+    <meta name="twitter:title" content="Seja bem-vindo(a) ao Finder Sound">
+    <meta name="twitter:description" content="Tem dúvidas sobre como funcionamos? Venha e confira nossos objetivos e o que podemos lhe oferecer!">
+
+    <meta itemprop="name" content="Seja bem-vindo(a) ao Finder Sound">
+
+    <meta name="dcterms.type" content="text">
+    <meta name="dcterms.format" content="text/php">
+    <meta name="dcterms.identifier" content="localhost:8000/objetivos">
+    <meta name="dcterms.title" content="Seja bem-vindo(a) ao Finder Sound">
+    <meta name="dcterms.description" content="Tem dúvidas sobre como funcionamos? Venha e confira nossos objetivos e o que podemos lhe oferecer!">
 </head>
 <body>
     <div class="bg-dark">

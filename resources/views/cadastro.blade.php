@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="../../css/main.css" media="All">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Cadastre-se</title>
+
+    <link rel="canonical" href="localhost:8000/cadastro">
+    <meta name="author" content="Allan Souza">
+    <meta name="creator" content="Allan Souza">
+    <meta name="robots" content="nofollow">
+    <meta name="keywords" content="cadastro, artista, estabelecimento">
+    <meta name="description" content="Quer facilitar suas conexões? Venha e realize seu cadastro conosco!">
+
+    <meta property="og:site_name" content="FinderSound">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="pt-BR">
+    <meta property="og:url" content="localhost:8000/cadastro">
+    <meta property="og:image" content="../../img/logo.png">
+    <meta property="og:image:url" content="../../img/logo.png">
+    <meta property="og:title" content="Cadastre-se no Finder Sound">
+    <meta property="og:description" content="Quer facilitar suas conexões? Venha e realize seu cadastro conosco!">
+
+    <meta name="twitter:url" content="localhost:8000/cadastro">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="../../img/logo.png">
+    <meta name="twitter:title" content="Cadastre-se no Finder Sound">
+    <meta name="twitter:description" content="Quer facilitar suas conexões? Venha e realize seu cadastro conosco!">
+
+    <meta itemprop="name" content="Cadastre-se no Finder Sound">
+
+    <meta name="dcterms.type" content="text">
+    <meta name="dcterms.format" content="text/php">
+    <meta name="dcterms.identifier" content="localhost:8000/cadastro">
+    <meta name="dcterms.title" content="Cadastre-se no Finder Sound">
+    <meta name="dcterms.description" content="Quer facilitar suas conexões? Venha e realize seu cadastro conosco!">
 </head>
 <body>
     <div class="bg-dark">
