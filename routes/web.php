@@ -21,3 +21,11 @@ Route::post('/cadastro/local', 'GeneralController@criacaoLocal')->name('cadastra
 
 // Create Artista
 Route::post('/cadastro/artista', 'GeneralController@criacaoArtista')->name('cadastrar_artista');
+
+// Update Artista
+Route::get('/editar/artista/{id}', 'GeneralController@verArtista');
+Route::post('/editar/artista/{id}', 'GeneralController@updateArtista')->name('alterar_dados_artista');
+
+// Update Local
+Route::get('/editar/local/{id}', 'GeneralController@verLocal');
+Route::post('/editar/local/{id}', 'GeneralController@updateLocal')->name('alterar_dados_local');
